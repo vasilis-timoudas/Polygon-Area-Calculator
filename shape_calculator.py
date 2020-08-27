@@ -36,11 +36,10 @@ class Rectangle:
     # Returns a string that represents the shape using lines of "*" and
     # if the width or height is larger than 50 returns "Too big for picture."
     def get_picture(self):
-        picture = "Too big for picture."
-        if self.width < 50 and self.height < 50:
-            draw_width = "*" * self.width
-            picture = (draw_width + "\n") * self.height
-        return picture
+        if self.width > 50 or self.height > 50:
+            return 'Too big for picture.'
+        else:
+            return ("*" * self.width + "\n") * self.height
 
     # Returns the number of times the passed in shape could fit inside the shape
     def get_amount_inside(self, rectangle):
