@@ -37,7 +37,7 @@ class Rectangle:
     # if the width or height is larger than 50 returns "Too big for picture."
     def get_picture(self):
         if self.width > 50 or self.height > 50:
-            return 'Too big for picture.'
+            return "Too big for picture."
         else:
             return ("*" * self.width + "\n") * self.height
 
