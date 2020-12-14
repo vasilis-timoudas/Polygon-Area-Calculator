@@ -1,6 +1,6 @@
-# Scientific Computing with Python Projects - Polygon Area Calculator
+# freeCodeCamp - Scientific Computing with Python
 # https://www.linkedin.com/in/vasilis-timoudas
-# https://github.com/vasilistimoudas
+# https://github.com/vasilis-timoudas
 
 class Rectangle:
 
